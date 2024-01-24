@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// import AppContainer from "./my-component/appContainer";
+import AppContainer from "./main-Component/app";
+
+// import AppMain from "./reactTestingLibrary/appMain";
+// import SearchTest from "./reactTestingLibrary/search";
+
+import Form from "./react-functionality/stateAsSnapshot";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AppContainer />
+      {/* <AppMain />
+      <SearchTest /> */}
+      {/* <FindByTesting /> */}
+      {/* <Form /> */}
     </div>
   );
 }
